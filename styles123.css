@@ -1,76 +1,84 @@
 /* styles.css */
-
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #f0f8ff;
+    background-color: #f4f4f9;
     color: #333;
+    margin: 0;
+    padding: 20px;
 }
 
 h1 {
-    color: #333;
+    color: #4CAF50;
     text-align: center;
-    margin-bottom: 20px;
 }
 
 table {
-    width: 50%;
+    width: 100%;
+    max-width: 800px;
     margin: 0 auto;
     border-collapse: collapse;
-    border: 1px solid #ccc;
-    background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 td {
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 form {
-    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-select {
-    margin-right: 10px;
-    padding: 5px;
-    font-size: 1em;
+select, button {
+    padding: 10px;
+    font-size: 16px;
 }
 
 button {
-    padding: 5px 10px;
-    font-size: 1em;
-    background-color: #007BFF;
+    background-color: #4CAF50;
     color: #fff;
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #45a049;
+}
+
+#info img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+li.highlight {
+    background-color: #ffeb3b;
+    font-weight: bold;
+}
+
+li img {
+    max-width: 50px;
+    height: auto;
+    margin-right: 10px;
 }
 
 .info {
     margin-top: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    background-color: #e9ecef;
-    display: none;
-    text-align: left;
-}
-
-.info p {
-    margin: 5px 0;
-    padding: 5px;
-    border-bottom: 1px solid #ddd;
-}
-
-.info p:last-child {
-    border-bottom: none;
-}
-
-.info .highlight {
-    background-color: #ffffcc;
-    font-weight: bold;
 }
