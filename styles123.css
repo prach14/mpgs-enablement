@@ -2,15 +2,16 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #f0f8ff;
     color: #333;
     margin: 0;
     padding: 20px;
 }
 
 h1 {
-    color: #4CAF50;
+    color: #333;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 table {
@@ -18,13 +19,14 @@ table {
     max-width: 800px;
     margin: 0 auto;
     border-collapse: collapse;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 td {
     padding: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 form {
@@ -39,18 +41,19 @@ select, button {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #007BFF;
     color: #fff;
     border: none;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #0056b3;
 }
 
 #info img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     display: block;
     margin-bottom: 10px;
@@ -70,7 +73,7 @@ li {
 }
 
 li.highlight {
-    background-color: #ffeb3b;
+    background-color: #ffffcc;
     font-weight: bold;
 }
 
@@ -82,4 +85,9 @@ li img {
 
 .info {
     margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #e9ecef;
+    display: none;
+    text-align: left;
 }
