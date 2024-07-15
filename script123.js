@@ -1,5 +1,4 @@
-
-         function handleSubmit(event) {
+function handleSubmit(event) {
     event.preventDefault();
 
     const dropdown = document.getElementById('dropdown');
