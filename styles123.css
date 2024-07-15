@@ -69,8 +69,11 @@ li {
 }
 
 li.highlight {
-    background-color: #ffeb3b;
-    font-weight: bold;
+   background-color: #FFFACD; /* Light yellow background */
+    color: #000000; /* Black text color */
+    font-weight: bold; /* Make the text bold */
+    padding: 5px; /* Add some padding */
+    border-radius: 3px; /* Round the corners */
 }
 
 li img {
