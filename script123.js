@@ -16,7 +16,7 @@ function handleSubmit(event) {
                     { text: "MSO Level Changes", highlight: true },
                     { text: "In acquirer tab added transaction source as “MERCHANT” for acquirer link", highlight: false },
                     { text: "Acquire Link Level Changes", highlight: true },
-                    { text: "merchantInitiatedTransactions", highlight: false, imageSrc: 'Capture1.JPG' },
+                    { text: "merchantInitiatedTransactions", highlight: false, imageSrc: 'https://github.com/prach14/mpgs-enablement/blob/4bc861064a5b308670f27fb9d0550b9cb5a75c89/Capture1.JPG' },
                     { text: "credentialOnFile", highlight: false, imageSrc: 'images/cof-credential-on-file.jpg' },
                     { text: "Toggles enablment on MSO level", highlight: true },
                     { text: "Enable S2I Mastercard Mandate CardOnFile", highlight: false },
