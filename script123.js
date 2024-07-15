@@ -16,8 +16,8 @@ function handleSubmit(event) {
                     { text: "MSO Level Changes", highlight: true },
                     { text: "In acquirer tab added transaction source as “MERCHANT” for acquirer link", highlight: false },
                     { text: "Acquire Link Level Changes", highlight: true },
-                    { text: "merchantInitiatedTransactions", highlight: false, imageSrc: 'https://github.com/prach14/mpgs-enablement/blob/4bc861064a5b308670f27fb9d0550b9cb5a75c89/Capture1.JPG' },
-                    { text: "credentialOnFile", highlight: false, imageSrc: 'images/cof-credential-on-file.jpg' },
+                    { text: "merchantInitiatedTransactions", highlight: false, imageSrc:'https://github.com/prach14/mpgs-enablement/blob/4bc861064a5b308670f27fb9d0550b9cb5a75c89/Capture1.JPG' },
+                    { text: "credentialOnFile", highlight: false},
                     { text: "Toggles enablment on MSO level", highlight: true },
                     { text: "Enable S2I Mastercard Mandate CardOnFile", highlight: false },
                     { text: "Enable S2I Visa Mandate CardOnFile", highlight: false },
@@ -29,36 +29,36 @@ function handleSubmit(event) {
                 ];
                 break;
             case "Payment facilator/Agregator":
-                mainImageSrc = 'images/payment-facilitator-image.jpg';  // Path to the Payment Facilitator main image
+                
                 displayContent = [
-                    { text: "Payment Aggregation", highlight: true, imageSrc: 'images/payment-aggregation.jpg' },
-                    { text: "Combines multiple merchant accounts into a single account.", highlight: false, imageSrc: 'images/payment-combined-accounts.jpg' },
-                    { text: "Onboarding Services", highlight: true, imageSrc: 'images/payment-onboarding.jpg' },
-                    { text: "Helps merchants get set up with payment processing.", highlight: false, imageSrc: 'images/payment-setup.jpg' },
-                    { text: "Compliance Management", highlight: true, imageSrc: 'images/payment-compliance.jpg' },
-                    { text: "Ensures merchants comply with payment industry regulations.", highlight: false, imageSrc: 'images/payment-regulations.jpg' },
+                    { text: "Payment Aggregation", highlight: true},
+                    { text: "Combines multiple merchant accounts into a single account.", highlight: false},
+                    { text: "Onboarding Services", highlight: true },
+                    { text: "Helps merchants get set up with payment processing.", highlight: false },
+                    { text: "Compliance Management", highlight: true },
+                    { text: "Ensures merchants comply with payment industry regulations.", highlight: false },
                 ];
                 break;
             case "CIT/MIT Indicator":
-                mainImageSrc = 'images/cit-mit-image.jpg';  // Path to the CIT/MIT main image
+               
                 displayContent = [
-                    { text: "CIT (Cardholder Initiated Transaction)", highlight: true, imageSrc: 'images/cit-indicator.jpg' },
-                    { text: "Transactions initiated by the cardholder, such as online purchases.", highlight: false, imageSrc: 'images/cit-transactions.jpg' },
-                    { text: "MIT (Merchant Initiated Transaction)", highlight: true, imageSrc: 'images/mit-indicator.jpg' },
-                    { text: "Transactions initiated by the merchant, such as recurring billing.", highlight: false, imageSrc: 'images/mit-transactions.jpg' },
-                    { text: "Transaction Management", highlight: true, imageSrc: 'images/transaction-management.jpg' },
-                    { text: "Differentiates between different types of transactions for reporting and analysis.", highlight: false, imageSrc: 'images/transaction-types.jpg' },
+                    { text: "CIT (Cardholder Initiated Transaction)", highlight: true },
+                    { text: "Transactions initiated by the cardholder, such as online purchases.", highlight: false },
+                    { text: "MIT (Merchant Initiated Transaction)", highlight: true },
+                    { text: "Transactions initiated by the merchant, such as recurring billing.", highlight: false},
+                    { text: "Transaction Management", highlight: true},
+                    { text: "Differentiates between different types of transactions for reporting and analysis.", highlight: false },
                 ];
                 break;
             case "TAP ON PHONE":
-                mainImageSrc = 'images/tap-on-phone-image.jpg';  // Path to the Tap on Phone main image
+                
                 displayContent = [
-                    { text: "Contactless Payments", highlight: true, imageSrc: 'images/tap-on-phone-contactless.jpg' },
-                    { text: "Uses NFC technology for quick and secure transactions.", highlight: false, imageSrc: 'images/tap-on-phone-nfc.jpg' },
-                    { text: "Convenience", highlight: true, imageSrc: 'images/tap-on-phone-convenience.jpg' },
-                    { text: "Allows users to make payments without physical contact.", highlight: false, imageSrc: 'images/tap-on-phone-contact.jpg' },
-                    { text: "Wide Acceptance", highlight: true, imageSrc: 'images/tap-on-phone-acceptance.jpg' },
-                    { text: "Compatible with various payment terminals and systems.", highlight: false, imageSrc: 'images/tap-on-phone-terminals.jpg' },
+                    { text: "Contactless Payments", highlight: true },
+                    { text: "Uses NFC technology for quick and secure transactions.", highlight: false},
+                    { text: "Convenience", highlight: true },
+                    { text: "Allows users to make payments without physical contact.", highlight: false },
+                    { text: "Wide Acceptance", highlight: true},
+                    { text: "Compatible with various payment terminals and systems.", highlight: false},
                 ];
                 break;
             default:
