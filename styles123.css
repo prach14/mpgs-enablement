@@ -2,10 +2,9 @@
 
 body {
     font-family: Arial, sans-serif;
+    margin: 20px;
     background-color: #f0f8ff;
     color: #333;
-    margin: 0;
-    padding: 20px;
 }
 
 h1 {
@@ -15,8 +14,7 @@ h1 {
 }
 
 table {
-    width: 100%;
-    max-width: 800px;
+    width: 50%;
     margin: 0 auto;
     border-collapse: collapse;
     border: 1px solid #ccc;
@@ -30,17 +28,18 @@ td {
 }
 
 form {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    margin: 0;
 }
 
-select, button {
-    padding: 10px;
-    font-size: 16px;
+select {
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 1em;
 }
 
 button {
+    padding: 5px 10px;
+    font-size: 1em;
     background-color: #007BFF;
     color: #fff;
     border: none;
@@ -52,37 +51,6 @@ button:hover {
     background-color: #0056b3;
 }
 
-#info img {
-    max-width: 80%;
-    height: auto;
-    display: block;
-    margin-bottom: 10px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    background-color: #f9f9f9;
-    border-bottom: 1px solid #ddd;
-}
-
-li.highlight {
-    background-color: #ffffcc;
-    font-weight: bold;
-}
-
-li img {
-    max-width: 50px;
-    height: auto;
-    margin-right: 10px;
-}
-
 .info {
     margin-top: 20px;
     padding: 10px;
@@ -90,4 +58,19 @@ li img {
     background-color: #e9ecef;
     display: none;
     text-align: left;
+}
+
+.info p {
+    margin: 5px 0;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.info p:last-child {
+    border-bottom: none;
+}
+
+.info .highlight {
+    background-color: #ffffcc;
+    font-weight: bold;
 }
