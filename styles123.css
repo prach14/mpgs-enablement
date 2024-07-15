@@ -1,9 +1,6 @@
-/* styles.css */
-
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
+    background-color: #f4f4f9;
     color: #333;
     margin: 0;
     padding: 20px;
@@ -74,10 +71,10 @@ li {
 
 li.highlight {
     background-color: #FFFACD; /* Light yellow background */
-    color: #000000; /* Black text color */
-    font-weight: bold; /* Make the text bold */
-    padding: 5px; /* Add some padding */
-    border-radius: 3px; /* Round the corners */
+    color: #000; /* Black text color */
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 3px;
 }
 
 li img {
